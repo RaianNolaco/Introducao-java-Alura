@@ -1,0 +1,25 @@
+
+public class TestaPontoFlutuante {
+
+	public static void main(String[] args){
+		
+		double salario;
+		salario  = 1250.40;
+		
+		System.out.println("O Salario é  "+ salario);
+		
+		
+		// quando se usa dois numeros inteiros o resultado será inteiro 
+		// mesmo a variavel sendo do tipo double
+		double divisao =  5 / 2;
+		
+		//para fazer funcionar temos que usar numero em formato double 
+		
+		double divisao2 = 5.0 / 2;
+		
+		System.out.println(divisao);
+		System.out.println(divisao2);
+			
+	}
+	
+}

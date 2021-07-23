@@ -1,0 +1,29 @@
+
+public class TestaCaracteres {
+
+	public static void main(String[] args){
+		
+		char letra = 'a';
+		
+		System.out.println(letra);
+		
+		char valor = 65;
+		System.out.println(valor);
+		
+		valor =  (char)(valor + 1);
+		System.out.println(valor);
+		 
+		
+		//Um for aleatorio feito com a soma de valores char
+//		for(int i = 65; i <= 91; i++) {
+//		
+//		 valor =  (char)(valor + 1);
+//		 System.out.println(valor);
+//		 
+//		}
+		
+		
+		
+	}
+	
+}
