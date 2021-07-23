@@ -15,14 +15,14 @@ public class TestarConversao {
 		
 		
 		//variavel mt grande colocar l no final 
-		long numeroGrande = 32432423523L;
+		//long numeroGrande = 32432423523L;
 		
 		//variavel pequena e mt pequena
-		short numeroPequeno = 2131; 
-		byte numeroMuitoPequeno =  127;
+		//short numeroPequeno = 2131; 
+		//byte numeroMuitoPequeno =  127;
 		
 		//outro tipo de ponto flutuante colocar f no finalk
-		float pontoFlutuante = 3.14f;
+		//float pontoFlutuante = 3.14f;
 		
 		//numero bizzaro
 		double valor1 = 0.2;
