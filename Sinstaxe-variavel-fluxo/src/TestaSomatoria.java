@@ -1,5 +1,5 @@
 
-public class TesteSomatoria {
+public class TestaSomatoria {
 
 	public static void main(String[] args) {
 		

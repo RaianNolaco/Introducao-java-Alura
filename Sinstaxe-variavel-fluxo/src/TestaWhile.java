@@ -1,5 +1,5 @@
 
-public class TesteWhile {
+public class TestaWhile {
 	
 	public static void main(String[] args) {
 		
