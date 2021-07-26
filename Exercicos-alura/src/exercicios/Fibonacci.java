@@ -9,7 +9,9 @@ public class Fibonacci {
 		int n2 = 1;
 		int calc = 1;
 		
-		for(int i = 1; i <= termo;i++){
+		System.out.println(1);
+		
+		for(int i = 1; i <= termo-1;i++){
 					
 		   System.out.println(calc);
            calc = n1 + n2;
