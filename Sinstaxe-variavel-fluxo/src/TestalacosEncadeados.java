@@ -1,4 +1,3 @@
-import java.util.Iterator;
 
 public class TestalacosEncadeados {
 	
@@ -6,7 +5,14 @@ public class TestalacosEncadeados {
 		
 		for(int multiplicador = 1;multiplicador <= 10;multiplicador++){
 		
-			fo
+			for(int contador = 1; contador <= 10; contador++){
+
+				System.out.println(multiplicador+" x "+contador+" = "+multiplicador*contador);
+				
+				
+			}
+			
+			System.out.println("------------");
 			
 		}
 		
