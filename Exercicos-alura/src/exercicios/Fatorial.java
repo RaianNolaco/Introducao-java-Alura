@@ -4,7 +4,7 @@ public class Fatorial {
 
 	public static void main(String[] args) {
 		
-		int n1 = 10;
+		int n1 = 5;
 		
 		int calc = 1;
 		
@@ -12,9 +12,10 @@ public class Fatorial {
 
 			calc *= i;
 			
+			
 		}
 		
-		System.out.println("\n"+calc);
+		System.out.println(n1+ "! = " + calc);
 		
 	}
 	
