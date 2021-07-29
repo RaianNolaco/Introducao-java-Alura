@@ -10,17 +10,6 @@ public class IdadeEmDias {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Em que ano você nasceu?");
-		int ano = sc.nextInt();
-		
-		System.out.println("Em que mês você nasceu?(Digite o numero do mês)");
-		int mes = sc.nextInt();
-		
-		System.out.println("Em que dia você nasceu?");
-		int dia = sc.nextInt();
-		
 		Date data = new Date();
 		
 		Calendar cal = Calendar.getInstance();
@@ -34,6 +23,19 @@ public class IdadeEmDias {
 		anoAtual = cal.get(Calendar.YEAR);
 		
 		System.out.println("Data atual é:" + diaAtual+"/"+mesAtual+"/"+anoAtual);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Em que ano você nasceu?");
+		int ano = sc.nextInt();
+		
+		System.out.println("Em que mês você nasceu?(Digite o numero do mês)");
+		int mes = sc.nextInt();
+		
+		System.out.println("Em que dia você nasceu?");
+		int dia = sc.nextInt();
+		
+		
 		
 		int calcDiasIdade = 0;
 		
@@ -50,11 +52,20 @@ public class IdadeEmDias {
 			int diaIdade =  diaAtual - dia;
 			calcDiasIdade = (idade * 365) + diaIdade;
 			
+		}if(mes < mesAtual){
+			
+			int calcMes = ((mesAtual - mes- 1)*30) + diaAtual;
+			calcDiasIdade = (idade * 365) + calcMes;
+			
 		}
+		
 		
 		//int calcMes = ((mesAtual-1) * 30) + diaAtual;
 		
-		System.out.println(calcDiasIdade);
+		System.out.println("\nVocê tem "+idade+" anos de idade"
+				+ "\ne viveu por aproximadamente " + calcDiasIdade + " dias");
+		
+		
 		
 		sc.close();
 		
